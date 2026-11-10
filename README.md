@@ -50,46 +50,32 @@
 
 ## 🚀 Installation Guide
 
-### Option A: Quick Install (For End Users — No Terminal / No Node.js Required)
+### ⚡ One-Line Command (Clone & Build)
 
-1. **Download Pre-built Extension**:
-   - Download the latest `ai-usage-companion.zip` from the **[GitHub Releases](https://github.com/srj7042/LimitUsage-Ext/releases)** page.
-   - Extract/unzip the file on your computer.
-2. **Open Extensions Page**:
-   - In Chrome or Brave: open `chrome://extensions`
-   - In Edge: open `edge://extensions`
-   - In Arc: open Settings > Extensions
-3. **Load the Extension**:
-   - Toggle **Developer mode** (top-right corner).
-   - Click **Load unpacked** (top-left).
-   - Select the extracted folder.
-4. Pin **AI Usage Companion** to your browser toolbar and visit ChatGPT, Claude, Gemini, or Perplexity!
+Run this single command in your terminal to clone, install dependencies, and build the extension in one go:
+
+```bash
+git clone https://github.com/srj7042/LimitUsage-Ext.git && cd LimitUsage-Ext && pnpm install && pnpm build
+```
+
+Then load the extension into your browser:
+1. Open **`chrome://extensions`** (or `edge://extensions` / `brave://extensions`).
+2. Turn on **Developer mode** (toggle in the top-right corner).
+3. Click **Load unpacked** (top-left button).
+4. Select the **`chrome-mv3`** folder located inside:
+   ```
+   LimitUsage-Ext/.output/chrome-mv3
+   ```
+5. Pin **AI Usage Companion** to your browser toolbar and visit ChatGPT, Claude, Gemini, or Perplexity!
 
 ---
 
-### Option B: Build From Source (For Developers & Contributors Only)
+### Option B: Pre-built ZIP (Zero Terminal / No Node.js Required)
 
-*Normal users do **not** need to run this. Use this only if you want to modify code or develop the extension.*
-
-```bash
-# 1. Clone repository
-git clone https://github.com/srj7042/LimitUsage-Ext.git
-cd LimitUsage-Ext
-
-# 2. Install dependencies
-pnpm install
-
-# 3. Run automated tests (Vitest)
-pnpm test
-
-# 4. Typecheck TypeScript
-pnpm compile
-
-# 5. Build production extension for Chrome MV3
-pnpm build
-```
-
-Once built, open `chrome://extensions`, click **Load unpacked**, and choose the generated `.output/chrome-mv3` folder.
+1. Download **`ai-usage-companion-1.0.0-chrome.zip`** from the **[GitHub Releases](https://github.com/srj7042/LimitUsage-Ext/releases)** page.
+2. Unzip/extract the file. You will get a folder containing **`manifest.json`**.
+3. Open `chrome://extensions` > enable **Developer mode** > click **Load unpacked**.
+4. Select the extracted folder and you're done!
 
 ---
 
