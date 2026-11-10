@@ -1,7 +1,6 @@
 # Build outputs
 .output/
 .wxt/
-dist/
 build/
 *.zip
 
