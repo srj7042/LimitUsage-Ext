@@ -140,4 +140,12 @@ Ai Limit/
 * **[Terms & Conditions](TERMS.md)**: Open-source terms, accuracy disclosures, and disclaimers.
 * **[MIT License](LICENSE)**: Permissive open-source license.
 
+---
+
+## 🐛 Bug Reports & Support
+
+Found an issue, website layout change, or bug?
+* **Email Support & Bug Reports**: [learnhowme987@gmail.com](mailto:learnhowme987@gmail.com)
+* **GitHub Issues**: Open an issue on this repository with your browser version and AI provider details.
+
 

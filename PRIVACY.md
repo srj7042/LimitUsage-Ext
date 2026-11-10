@@ -70,6 +70,8 @@ AI Usage Companion is 100% open source under the MIT License. Anyone can inspect
 
 ---
 
-## 7. Contact
+## 7. Contact & Support
 
-For privacy inquiries or code audits, open an issue on GitHub.
+For privacy inquiries, audit questions, or to report any bugs or errors, please contact:
+* **Email:** [learnhowme987@gmail.com](mailto:learnhowme987@gmail.com)
+* **GitHub Issues:** Open an issue or discussion on this repository.

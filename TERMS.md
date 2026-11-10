@@ -51,3 +51,10 @@ AI Usage Companion is an independent open-source project and is **not affiliated
 ## 6. Modifications to Terms
 
 We reserve the right to update these Terms at any time. Any changes will be reflected in this repository with an updated effective date.
+
+---
+
+## 7. Contact & Support
+
+If you encounter any issues, bugs, or have questions regarding these Terms, please contact:
+* **Email:** [learnhowme987@gmail.com](mailto:learnhowme987@gmail.com)

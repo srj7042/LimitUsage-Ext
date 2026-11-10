@@ -327,6 +327,16 @@ export const SettingsAndPrivacyModal: React.FC<SettingsAndPrivacyModalProps> = (
                 <p className="text-[11px] text-muted pl-5">
                   All metrics reside strictly inside your browser's local IndexedDB sandbox. You can export or erase them at any time.
                 </p>
+
+                <div className="pt-3 border-t border-white/[0.06] flex items-center justify-between text-[11px]">
+                  <span className="text-muted">Report Bugs & Errors:</span>
+                  <a
+                    href="mailto:learnhowme987@gmail.com"
+                    className="text-accent hover:underline font-semibold"
+                  >
+                    learnhowme987@gmail.com
+                  </a>
+                </div>
               </div>
             </div>
           )}
