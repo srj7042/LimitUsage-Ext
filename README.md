@@ -48,56 +48,48 @@
 
 ---
 
-## 🚀 Installation & Local Setup
+## 🚀 Installation Guide
 
-### 1. Load Extension in Google Chrome / Brave / Edge / Arc
+### Option A: Quick Install (For End Users — No Terminal / No Node.js Required)
 
-1. Open your browser and navigate to:
-   - Chrome / Brave: `chrome://extensions`
-   - Edge: `edge://extensions`
-   - Arc: Open Settings > Extensions
-2. Enable **Developer mode** toggle in the top-right corner.
-3. Click **Load unpacked**.
-4. Select the `.output/chrome-mv3` folder located at:
-   ```bash
-   /Users/surajjaiswal/Extensions/Ai Limit/.output/chrome-mv3
-   ```
-5. Pin **AI Usage Companion** to your extension toolbar.
-
----
-
-### 2. (Optional) Setup Desktop Native Messaging Companion
-
-To monitor local token metrics from **Cursor** and **Google Antigravity**:
-
-1. Run the one-command installer in your terminal:
-   ```bash
-   bash "/Users/surajjaiswal/Extensions/Ai Limit/native-companion/install.sh"
-   ```
-2. Open the AI Usage Companion Dashboard > **Settings** > **Desktop Companion**.
-3. Click **Test Connection & Sync**.
-4. The extension pairs with the local Python host via secure SHA-256 token exchange and synchronizes local workspace sessions.
+1. **Download Pre-built Extension**:
+   - Download the latest `ai-usage-companion.zip` from the **[GitHub Releases](https://github.com/learnhowme/ai-usage-companion/releases)** page.
+   - Extract/unzip the file on your computer.
+2. **Open Extensions Page**:
+   - In Chrome or Brave: open `chrome://extensions`
+   - In Edge: open `edge://extensions`
+   - In Arc: open Settings > Extensions
+3. **Load the Extension**:
+   - Toggle **Developer mode** (top-right corner).
+   - Click **Load unpacked** (top-left).
+   - Select the extracted folder.
+4. Pin **AI Usage Companion** to your browser toolbar and visit ChatGPT, Claude, Gemini, or Perplexity!
 
 ---
 
-## 🛠️ Development & Testing
+### Option B: Build From Source (For Developers & Contributors Only)
+
+*Normal users do **not** need to run this. Use this only if you want to modify code or develop the extension.*
 
 ```bash
-# Install dependencies
+# 1. Clone repository
+git clone https://github.com/learnhowme/ai-usage-companion.git
+cd ai-usage-companion
+
+# 2. Install dependencies
 pnpm install
 
-# Run comprehensive test suite (Vitest)
+# 3. Run automated tests (Vitest)
 pnpm test
 
-# Run TypeScript strict typecheck
+# 4. Typecheck TypeScript
 pnpm compile
 
-# Build extension for Chrome MV3
+# 5. Build production extension for Chrome MV3
 pnpm build
-
-# Build distributable zip
-pnpm zip
 ```
+
+Once built, open `chrome://extensions`, click **Load unpacked**, and choose the generated `.output/chrome-mv3` folder.
 
 ---
 
