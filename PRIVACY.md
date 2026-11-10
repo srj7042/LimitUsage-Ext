@@ -66,7 +66,7 @@ You maintain complete ownership of your data at all times:
 
 ## 6. Open Source Verification
 
-AI Usage Companion is 100% open source under the MIT License. Anyone can inspect, audit, build, and verify the codebase to confirm that no data leaves your machine.
+AI Usage Companion is 100% open source under the Apache License 2.0. Anyone can inspect, audit, build, and verify the codebase to confirm that no data leaves your machine.
 
 ---
 

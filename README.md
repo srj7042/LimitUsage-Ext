@@ -138,7 +138,7 @@ Ai Limit/
 
 * **[Privacy Policy](PRIVACY.md)**: 100% offline, zero-telemetry, zero-cloud architecture.
 * **[Terms & Conditions](TERMS.md)**: Open-source terms, accuracy disclosures, and disclaimers.
-* **[MIT License](LICENSE)**: Permissive open-source license.
+* **[Apache 2.0 License](LICENSE)**: Permissive open-source license with patent protection and clear contributor terms.
 
 ---
 

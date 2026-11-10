@@ -8,7 +8,7 @@ Please read these Terms and Conditions ("Terms") before installing or using **AI
 
 ## 1. License & Open Source
 
-AI Usage Companion is free and open-source software distributed under the terms of the **MIT License**. You are free to inspect, modify, fork, and distribute the software in compliance with the license provisions.
+AI Usage Companion is free and open-source software distributed under the terms of the **Apache License, Version 2.0**. You are free to inspect, modify, fork, and distribute the software in compliance with the license provisions.
 
 ---
 
