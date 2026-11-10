@@ -36,3 +36,4 @@ echo "   👉 $TARGET_DIR/dist"
 echo "=========================================="
 echo "Visit ChatGPT, Claude, Gemini, or Perplexity to see your live token bar!"
 echo ""
+

@@ -50,43 +50,92 @@
 
 ## 🚀 Installation Guide
 
-### ⚡ One-Line Command (For All Users — No Node.js / No Git Required)
+Choose the method that fits your operating system and preference:
 
-Paste and run this single command in your Mac / Linux terminal:
+---
+
+### Method 1: macOS & Linux (⚡ One-Command Auto Install)
+
+Open Terminal, paste, and press Enter:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/srj7042/LimitUsage-Ext/main/install.sh | bash
 ```
 
-**What this command automatically does for you:**
-1. Downloads the ready-to-use extension into `~/Downloads/AI-Usage-Companion`.
-2. Automatically opens **`chrome://extensions`** in Google Chrome.
-3. Automatically opens the folder in Finder.
-4. **Final step**: On the Chrome tab, turn ON **Developer mode** (top-right) > Click **Load unpacked** > Select the opened **`dist`** folder!
+* **What it does**: Downloads the pre-built extension to `~/Downloads/AI-Usage-Companion`, opens Chrome to `chrome://extensions`, and opens Finder right to the folder.
+* **Final Step**: Turn on **Developer mode** (top-right) > Click **Load unpacked** > Select the opened **`dist`** folder.
 
 ---
 
-### Option B: Download & Load Manually (Zero Terminal)
+### Method 2: Windows 10 / 11 (⚡ One-Command PowerShell)
 
-1. Download or clone this repository:
-   * Click the green **Code > Download ZIP** button at the top of this GitHub page.
-   * Extract the ZIP file.
-2. Open **`chrome://extensions`** in your browser.
-3. Turn ON **Developer mode** toggle in the top-right corner.
-4. Click **Load unpacked** (top-left) and select the **`dist`** folder inside the extracted folder.
-5. Pin **AI Usage Companion** to your browser toolbar and enjoy!
+Open **PowerShell**, paste, and press Enter:
+
+```powershell
+irm https://raw.githubusercontent.com/srj7042/LimitUsage-Ext/main/install.ps1 | iex
+```
+
+* **What it does**: Downloads the extension into your Downloads folder, launches Chrome/Edge at `chrome://extensions`, and opens File Explorer to the **`dist`** folder.
+* **Final Step**: Turn on **Developer mode** (top-right) > Click **Load unpacked** > Select the **`dist`** folder.
 
 ---
 
-### Option C: Build From Source (For Developers Only)
+### Method 3: Download & Load Manually (Zero Terminal — Works on Any OS)
 
-*Normal users do **not** need this. Use this only if you want to inspect or modify the source code:*
+1. Click the green **Code > Download ZIP** button at the top of this GitHub repository (or download from [Releases](https://github.com/srj7042/LimitUsage-Ext/releases)).
+2. Unzip / Extract the downloaded ZIP file.
+3. Open your browser:
+   * Google Chrome: `chrome://extensions`
+   * Microsoft Edge: `edge://extensions`
+   * Brave: `brave://extensions`
+4. Toggle ON **Developer mode** (top-right switch).
+5. Click **Load unpacked** (top-left button) and select the **`dist`** folder inside the extracted folder.
+6. Pin **AI Usage Companion** to your browser toolbar!
+
+---
+
+### Method 4: Build From Source (For Developers & Contributors)
+
+*Only for developers who wish to modify the TypeScript/React source code:*
 
 ```bash
 git clone https://github.com/srj7042/LimitUsage-Ext.git && cd LimitUsage-Ext && pnpm install && pnpm build
 ```
 
 Once built, load the generated `.output/chrome-mv3` folder via **Load unpacked**.
+
+---
+
+## 🖥️ How to Use AI Usage Companion
+
+The extension offers **4 distinct ways** to monitor your AI tokens and context limits:
+
+### 1. Live Embedded Floating HUD (On Supported Websites)
+* Visit **ChatGPT**, **Claude**, **Gemini**, or **Perplexity**.
+* A sleek floating bar automatically appears on the website.
+* **Draggable & Snappable**: Click and hold the grip icon to drag it anywhere on your screen.
+* **Double-click or Chevron**: Minimizes the HUD into an ultra-compact glowing pill.
+* **Live Token Flow**: Real-time Input vs. Output token breakdown and context memory gauge.
+* **Settings Gear**: Hide on current website or jump directly to the full dashboard.
+
+### 2. Chrome Native Side Panel (`chrome.sidePanel`)
+* Right-click the extension icon in your toolbar and select **Open side panel** (or click the Side Panel icon in Chrome).
+* Keep your complete usage dashboard open side-by-side while researching, coding, or chatting in any tab.
+
+### 3. Toolbar Quick Popup
+* Click the **AI Usage Companion icon** in your browser toolbar anytime.
+* View instant overview KPIs (Today's Tokens, 7-Day Total, Active Provider, Health status) and quick access to individual provider stats.
+
+### 4. Full Analytics Dashboard (`options.html`)
+* Click **Full Dashboard** from any popup or side panel to open the full-screen view.
+* Features:
+  * **Interactive Analytics Chart**: Daily and weekly token burn graphs.
+  * **Provider Cards**: Detailed context windows and verified quotas for all 6 providers.
+  * **Conversation History Table**: Search, filter, and review all previous sessions with token counts.
+  * **Data Export & Nuclear Wipe**: Download your data as structured JSON or CSV, or erase all local IndexedDB storage with one click.
+
+### 5. (Optional) Desktop Companion for Cursor & Antigravity
+* Run `bash "native-companion/install.sh"` to connect local desktop sessions from **Google Antigravity** and **Cursor** IDE directly into your unified dashboard.
 
 ---
 
