@@ -1,0 +1,9 @@
+{
+  "name": "com.ai_usage_companion.host",
+  "description": "AI Usage Companion Desktop Native Messaging Host",
+  "path": "/Users/surajjaiswal/Extensions/Ai Limit/native-companion/ai_usage_host.sh",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://dcicbondljfjnfgkmgjncddkjoncnfna/"
+  ]
+}

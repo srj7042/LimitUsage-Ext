@@ -1,0 +1,39 @@
+# Build outputs
+.output/
+.wxt/
+dist/
+build/
+*.zip
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Native companion private config (Contains local auth token)
+native-companion/config.json
+
+# Environment and secrets
+.env
+.env.*
+*.local
+*.pem
+*.key
+
+# IDE and OS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

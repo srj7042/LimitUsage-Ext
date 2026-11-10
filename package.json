@@ -1,0 +1,40 @@
+{
+  "name": "ai-usage-companion",
+  "version": "1.0.0",
+  "description": "Production-ready, privacy-first AI token and context usage companion browser extension.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "compile": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "idb": "^8.0.2",
+    "lucide-react": "^1.71.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.2.0",
+    "@types/chrome": "^0.0.308",
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "5.1.4",
+    "@wxt-dev/module-react": "^1.2.2",
+    "autoprefixer": "^10.4.21",
+    "fake-indexeddb": "^6.2.8",
+    "jsdom": "^26.0.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8",
+    "wxt": "^0.21.5"
+  }
+}
