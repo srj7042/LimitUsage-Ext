@@ -3,6 +3,9 @@
 > **Production-Ready, Privacy-First Browser Extension for Tracking AI Context & Token Utilization**  
 > Built with **WXT**, **Manifest V3**, **React**, **TypeScript**, **Tailwind CSS**, and **IndexedDB**.
 
+> [!WARNING]
+> **Beta Release Status**: AI Usage Companion is currently in **Public Beta**. While core features, token estimation, and dashboards are fully functional, you may still encounter minor bugs or UI edge cases as third-party AI platforms (ChatGPT, Claude, Gemini, Perplexity) frequently update their web DOM layouts. If you find any bugs, errors, or unexpected behavior, please let us know at **[learnhowme987@gmail.com](mailto:learnhowme987@gmail.com)** or open an issue!
+
 ---
 
 ## ⚡ Key Highlights & Principles
@@ -142,10 +145,11 @@ Ai Limit/
 
 ---
 
-## 🐛 Bug Reports & Support
+## 🐛 Beta Feedback, Bug Reports & Support
 
-Found an issue, website layout change, or bug?
-* **Email Support & Bug Reports**: [learnhowme987@gmail.com](mailto:learnhowme987@gmail.com)
-* **GitHub Issues**: Open an issue on this repository with your browser version and AI provider details.
+Because this extension is actively in **Beta**, your feedback is essential to keeping it robust across frequent provider layout changes:
+* **Email Bugs Directly**: Send your screenshots, console errors, or bug details to **[learnhowme987@gmail.com](mailto:learnhowme987@gmail.com)**
+* **GitHub Issues**: Open a GitHub Issue with your browser version and the AI provider where the issue occurred.
+* All reports will be investigated and addressed in upcoming patches!
 
 
