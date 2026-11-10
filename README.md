@@ -53,7 +53,7 @@
 ### Option A: Quick Install (For End Users — No Terminal / No Node.js Required)
 
 1. **Download Pre-built Extension**:
-   - Download the latest `ai-usage-companion.zip` from the **[GitHub Releases](https://github.com/learnhowme/ai-usage-companion/releases)** page.
+   - Download the latest `ai-usage-companion.zip` from the **[GitHub Releases](https://github.com/srj7042/LimitUsage-Ext/releases)** page.
    - Extract/unzip the file on your computer.
 2. **Open Extensions Page**:
    - In Chrome or Brave: open `chrome://extensions`
@@ -73,8 +73,8 @@
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/learnhowme/ai-usage-companion.git
-cd ai-usage-companion
+git clone https://github.com/srj7042/LimitUsage-Ext.git
+cd LimitUsage-Ext
 
 # 2. Install dependencies
 pnpm install
