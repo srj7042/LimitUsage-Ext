@@ -1,4 +1,4 @@
-﻿# AI Usage Companion - One-Command User Installer for Windows (PowerShell)
+# AI Usage Companion - One-Command User Installer for Windows (PowerShell)
 $ErrorActionPreference = "Stop"
 
 $TargetDir = "$env:USERPROFILE\Downloads\AI-Usage-Companion"
@@ -46,3 +46,4 @@ Write-Host "   👉 $TargetDir\dist" -ForegroundColor Yellow
 Write-Host "==========================================" -ForegroundColor Green
 Write-Host "Visit ChatGPT, Claude, Gemini, or Perplexity to see your live token bar!" -ForegroundColor Cyan
 Write-Host ""
+
